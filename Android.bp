@@ -140,7 +140,7 @@ cc_library_static {
                 "libarcobbvolume",
             ],
         },
-        havoc: {
+        six: {
             device_support_hwfde: {
                 cflags: ["-DCONFIG_HW_DISK_ENCRYPTION"],
                 header_libs: ["libcryptfs_hw_headers"],
@@ -169,7 +169,7 @@ cc_binary {
                 "libarcobbvolume",
             ],
         },
-        havoc: {
+        six: {
             device_support_hwfde: {
                 shared_libs: ["libcryptfs_hw"],
             },
